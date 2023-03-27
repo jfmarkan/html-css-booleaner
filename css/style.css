@@ -9,6 +9,10 @@ header{
     background-position-x: -116px;
 }
 
+.booleaner{
+    color: cornflowerblue;
+}
+
 .logo{
     margin-top: 40px;
     width: 170px;
@@ -37,9 +41,13 @@ h3{
     color: #9b9b9b;
 }
 
-span{
+div>p{
     font-size: 10px;
-    
+    margin: 0px;
+}
+
+ul{
+    padding-left: 20px;
 }
 
 table{
@@ -64,5 +72,12 @@ tr.odd{
 }
 
 .othernews{
-    display: inline-block;
+    position: relative;
+}
+
+.top-left{
+    position: absolute;
+    color: #ffffff;
+    top: 8px;
+    left: 8px;
 }
