@@ -1,13 +1,16 @@
-
+body{
+    width: 870px;
+}
 
 header{
     background-color: cornflowerblue;
     background-image: url(../img/pattern.png);
+    background-size: 350px;
 }
 
 .logo{
-    margin-top: 50px;
-    width: 300px;
+    margin-top: 40px;
+    width: 170px;
 }
 
 .newspic{
@@ -31,7 +34,9 @@ span{
 }
 
 th{
-
+    background-color: #20a9e5;
+    color: #ffffff;
+    text-align: left;
 }
 
 tr.even{
@@ -39,7 +44,7 @@ tr.even{
 }
 
 tr.odd{
-
+    background-color: #b1e5f2;
 }
 
 .othernews{
