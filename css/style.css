@@ -1,13 +1,17 @@
-header{
 
+
+header{
+    background-color: cornflowerblue;
+    background-image: url(../img/pattern.png);
 }
 
 .logo{
-
+    margin-top: 50px;
+    width: 300px;
 }
 
 .newspic{
-    
+
 }
 
 h1{
